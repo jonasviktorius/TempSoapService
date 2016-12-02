@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempSoapService", "TempSoapService\TempSoapService.csproj", "{62A58717-028C-43FE-9664-943FCBB6DFEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempClient", "TempClient\TempClient.csproj", "{F792D68B-15F5-4BBA-927E-015DD096EED8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{62A58717-028C-43FE-9664-943FCBB6DFEE} = {62A58717-028C-43FE-9664-943FCBB6DFEE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{62A58717-028C-43FE-9664-943FCBB6DFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A58717-028C-43FE-9664-943FCBB6DFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A58717-028C-43FE-9664-943FCBB6DFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F792D68B-15F5-4BBA-927E-015DD096EED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F792D68B-15F5-4BBA-927E-015DD096EED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F792D68B-15F5-4BBA-927E-015DD096EED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F792D68B-15F5-4BBA-927E-015DD096EED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
